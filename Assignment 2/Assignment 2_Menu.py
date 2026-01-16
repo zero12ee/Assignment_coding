@@ -31,7 +31,7 @@ def check_hemoglobin():
         if hemoglobin < 117:
             print("Your hemoglobin level is low.")
         elif hemoglobin > 155:
-            print("Hemoglobin level is high.")
+            print("Your hemoglobin level is high.")
         else:
             print("Your hemoglobin level is normal.")
     elif sex == "male":
