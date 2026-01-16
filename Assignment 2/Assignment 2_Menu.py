@@ -29,18 +29,18 @@ def check_hemoglobin():
     
     if sex == "female":
         if hemoglobin < 117:
-            print("Hemoglobin level is low.")
+            print("Your hemoglobin level is low.")
         elif hemoglobin > 155:
             print("Hemoglobin level is high.")
         else:
-            print("Hemoglobin level is normal.")
+            print("Your hemoglobin level is normal.")
     elif sex == "male":
         if hemoglobin < 134:
-            print("Hemoglobin level is low.")
+            print("Your hemoglobin level is low.")
         elif hemoglobin > 167:
-            print("Hemoglobin level is high.")
+            print("Your hemoglobin level is high.")
         else:
-            print("Hemoglobin level is normal.")
+            print("Your hemoglobin level is normal.")
     else:
         print("Invalid input for biological sex.")
 
@@ -106,7 +106,7 @@ def main():
         elif choice == "5":
             compare_pizzas()
         elif choice == "0":
-            print("Goodbye!")
+            print("Goodbye! Have a great day!")
             break
         else:
             print("Invalid choice. Please try again.")
