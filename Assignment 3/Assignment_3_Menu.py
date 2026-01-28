@@ -143,7 +143,7 @@ def assignment_3_menu():
         print("6. Character extractor")
         print("7. Acronym maker with find() function")
 
-        choice = input("Please select an assignment to run (1-7). Type \"enter\" to exit: ").lower()
+        choice = input("Please select an assignment to run (1-7). Type \"exit\" to exit: ").lower()
 
         if choice == '1':
             number_divisible_by_3()
