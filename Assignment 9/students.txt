@@ -1,0 +1,10 @@
+Alice,85
+Bob,90
+Charlie,78
+Diana,92
+Ethan,88
+Fiona,76
+George,95
+Hannah,83
+Ian,80
+Julia,89
